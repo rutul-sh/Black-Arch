@@ -25,12 +25,12 @@
 
 ```bash
 # Script ને executable બનાવો
-chmod +x blackarch_installer.sh
+chmod +x Blackarch.sh
 
 # Script run કરો
-./blackarch_installer.sh
+./Blackarch.sh
 ```
 
 **અથવા એક command માં:**
 ```bash
-curl -O [script-url] && chmod +x blackarch_installer.sh && ./blackarch_installer.sh
+curl -O [script-url] && chmod +x Blackarch.sh && ./Blackarch.sh
