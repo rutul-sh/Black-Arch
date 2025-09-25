@@ -36,12 +36,14 @@ sudo tee /etc/pacman.d/mirrorlist > /dev/null << 'EOF'
 ## Arch Linux repository mirrorlist - Optimized
 ##
 
+## Primary Reliable Mirror (Top Priority)
+Server = https://mirror.rackspace.com/archlinux/$repo/os/$arch
+
 ## India
 Server = https://mirror.cse.iitk.ac.in/archlinux/$repo/os/$arch
 Server = https://mirrors.piconets.webwerks.in/archlinux-mirror/$repo/os/$arch
 
 ## Global Fast Mirrors
-Server = https://mirror.rackspace.com/archlinux/$repo/os/$arch
 Server = https://archlinux.mirror.pkgbuild.com/$repo/os/$arch
 Server = https://mirrors.kernel.org/archlinux/$repo/os/$arch
 Server = https://mirror.osbeck.com/archlinux/$repo/os/$arch
